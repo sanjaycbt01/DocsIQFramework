@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="InEpicroleandglobalprofilecreation(failed)">
+    <classes>
+      <class name="com.Automation.Testcases.InEpicroleandglobalprofilecreation">
+        <methods>
+          <include name="setUp"/>
+          <include name="setup"/>
+          <include name="getResult"/>
+          <include name="Epicroleandglobalprofilecreation" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.Automation.Testcases.InEpicroleandglobalprofilecreation -->
+    </classes>
+  </test> <!-- InEpicroleandglobalprofilecreation(failed) -->
+  <test thread-count="5" name="Mappingofepicroleandglobalprofileinsso(failed)">
+    <classes>
+      <class name="com.Automation.Testcases.Mappingofepicroleandglobalprofileinsso">
+        <methods>
+          <include name="Mappingepicroleandglobalprofileinsso"/>
+          <include name="setUp"/>
+          <include name="setup"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- com.Automation.Testcases.Mappingofepicroleandglobalprofileinsso -->
+    </classes>
+  </test> <!-- Mappingofepicroleandglobalprofileinsso(failed) -->
+</suite> <!-- Failed suite [Suite] -->
